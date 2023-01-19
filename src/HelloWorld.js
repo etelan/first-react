@@ -15,7 +15,7 @@ const HelloWorld = () => {
   const [width, height] = useWindowSize({ fps: 60 });
   
   function increment() {
-    let current = count[0].uv + 20
+    let current = count[0].uv + 1
     setCount([{name: "clicky click clicks", uv:current, pv: 2400, amt: 2400}])
 
     switch(current){
