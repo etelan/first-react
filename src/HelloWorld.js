@@ -32,7 +32,7 @@ const HelloWorld = () => {
             setCongrats("MY GOSH 500");
             break;
         case 1000:
-            setCongrats("YOU HAVE COMPLETED THE GAME!");
+            setCongrats("YOU HAVE COMPLETED THE GAME!!");
             setConfetti (
                 <Confetti
                 width={width}
